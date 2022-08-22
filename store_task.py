@@ -1,9 +1,5 @@
 class Products:
-    def __init__(self):
-        prod_ids = ''
-        names = ''
-        price = 0
-        stock = 0
+    def __init__(self, prod_ids='', names='', price=0, stock=0):
         self._prod_id = prod_ids
         self._name = names
         self._price = price

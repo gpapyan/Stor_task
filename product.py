@@ -23,7 +23,6 @@ class Products:
         return tabulate(table, headers, tablefmt="fancy_grid",
                         stralign="left", numalign="left")
 
-
 # class Sell:
 #     def __init__(self, sku, prod_name, price, pay_price, stock):
 #         self.product = Products(sku, prod_name,
